@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Eureka'
-  s.version = '1.7.0'
+  s.version = '1.7.1'
   s.license = 'MIT'
   s.summary = 'Elegant iOS Forms in pure Swift 2'
   s.homepage = 'https://github.com/xmartlabs/Eureka'
@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/**/*.swift'
   s.resources = 'Source/Resources/Eureka.bundle'
   s.requires_arc = true
+
+  s.pod_target_xcconfig = { "SWIFT_VERSION" => "2.3" }
 end
